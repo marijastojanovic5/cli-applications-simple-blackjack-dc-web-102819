@@ -43,6 +43,7 @@ prompt_user
   else 
    
    hit?
+   invalid_command
    
 
   end
