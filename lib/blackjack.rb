@@ -40,8 +40,11 @@ prompt_user
     current_total+= deal_card
   elsif input == "s"
     return current_total
-  else
+  else 
    prompt_user
+   hit?
+   invalid_command
+   
 
   end
  
