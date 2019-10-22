@@ -42,7 +42,7 @@ prompt_user
     return current_total
   else 
    
-    return invalid_command
+   hit
    
 
   end
