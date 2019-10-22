@@ -41,13 +41,10 @@ prompt_user
   elsif input == "s"
     return current_total
   else 
-   
    hit?
    invalid_command
-   
-
-  end
- 
+   end
+  puts "Please enter a valid command"
 end
 
 def invalid_command
