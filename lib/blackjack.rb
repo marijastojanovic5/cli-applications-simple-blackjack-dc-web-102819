@@ -41,9 +41,8 @@ prompt_user
   elsif input == "s"
     return current_total
   else 
-   prompt_user
-   hit?(current_total)
-   invalid_command
+   
+    return invalid_command
    
 
   end
