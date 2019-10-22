@@ -44,7 +44,7 @@ prompt_user
    hit?
    invalid_command
    end
-  puts "Please enter a valid command"
+  
 end
 
 def invalid_command
