@@ -42,7 +42,7 @@ prompt_user
     return current_total
   else 
    prompt_user
-   hit?=="m"
+   hit?(current_total)
    invalid_command
    
 
