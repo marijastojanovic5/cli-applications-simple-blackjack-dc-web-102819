@@ -40,11 +40,11 @@ prompt_user
     current_total+= deal_card
   elsif input == "s"
     return current_total
-  else
-   prompt_user
-
-  end
- 
+  else 
+   hit?(current_total)
+   invalid_command
+   end
+  
 end
 
 def invalid_command
